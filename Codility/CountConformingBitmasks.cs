@@ -75,7 +75,6 @@ namespace Codility
             BitArray aORb = ((BitArray)bA.Clone()).Or(bB);
             BitArray aORc = ((BitArray)bA.Clone()).Or(bC);
             BitArray bORc = ((BitArray)bB.Clone()).Or(bC);
-
             s -= Math.Pow(2, ZeroCount(aORb));
             s -= Math.Pow(2, ZeroCount(aORc));
             s -= Math.Pow(2, ZeroCount(bORc));
