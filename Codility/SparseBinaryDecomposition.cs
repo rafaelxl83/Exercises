@@ -62,6 +62,7 @@ namespace Codility
             // binaries.get(0] contains least significant bit (LSB), next
             // bit is in binaries.get(1], and so on.
             ArrayList binaries = new ArrayList();
+            
             while (n != 0)
             {
                 binaries.Add(n & 1);
